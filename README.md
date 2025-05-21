@@ -2,6 +2,12 @@
 
 Support for the That Little Box [USB Go Box](https://www.thatlittlebox.co.uk/usb-go-box).
 
+## Installation
+
+```
+pip3 install gobox
+```
+
 ## Usage
 
 ```python
