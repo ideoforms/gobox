@@ -1,0 +1,16 @@
+[project]
+name = "gobox"
+version = "0.0.1"
+description = "Support for the That Little Box USB Go Box"
+authors = [
+    { name="Daniel Jones", email="dan-code@erase.net" }
+]
+dependencies = [
+    "gobox",
+    "mido",
+    "python-rtmidi",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
